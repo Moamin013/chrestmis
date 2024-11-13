@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TwantiMiss Christmas Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Banner -->
+    <header class="hero-banner">
+        <h1>Welcome to TwantiMiss Christmas Shop</h1>
+        <p>Find the perfect Christmas gift for your loved ones</p>
+        <a href="#shop" class="shop-now-btn">Shop Now</a>
+    </header>
+
+    <!-- Featured Products -->
+    <section id="shop" class="featured-products">
+        <h2>Featured Christmas Gifts</h2>
+        <div class="product-cards">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x300?text=Gift+1" alt="Gift 1">
+                <h3>Christmas Gift 1</h3>
+                <p class="price">$19.99</p>
+                <button class="add-to-cart-btn" data-product="Gift 1" data-price="19.99">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x300?text=Gift+2" alt="Gift 2">
+                <h3>Christmas Gift 2</h3>
+                <p class="price">$24.99</p>
+                <button class="add-to-cart-btn" data-product="Gift 2" data-price="24.99">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x300?text=Gift+3" alt="Gift 3">
+                <h3>Christmas Gift 3</h3>
+                <p class="price">$29.99</p>
+                <button class="add-to-cart-btn" data-product="Gift 3" data-price="29.99">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cart -->
+    <section id="cart" class="shopping-cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="total-price">0.00</span></p>
+        <button id="checkout-btn">Checkout</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TwantiMiss | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
